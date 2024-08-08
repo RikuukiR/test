@@ -17,6 +17,7 @@
             </a>
         </div>
     </header>
+
     <main>
         <div class="search-form__content">
             <!-- ここからラジオボタンを作成 -->
@@ -25,7 +26,7 @@
             </div>
             <form class="search-form" action="result.php" method="get">
                 <div class="search-form__item">
-                    <select class"search-form__item-select" name="city">
+                    <select class="search-form__item-select" name="city">
                         <option value="シドニー">シドニー</option>
                         <option value="上海">上海</option>
                         <option value="モスクワ">モスクワ</option>
@@ -35,7 +36,9 @@
                     </select>
                 </div>
                 <div class="search-form__button">
-                    <button class="search-form__button-submit" type="submit">検索</button>
+                    <button class="search-form__button-submit" type="submit">
+                        検索
+                    </button>
                 </div>
             </form>
         </div>
