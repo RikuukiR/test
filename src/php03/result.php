@@ -24,9 +24,7 @@ $comparison = searchCityTime($city);
     <title>World Clock</title>
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-    <title>World Clock</title>
+    <link rel="stylesheet" href="css/result.css">
 </head>
 
 <body>
@@ -53,6 +51,7 @@ $comparison = searchCityTime($city);
                         <?php echo $tokyo['time']?>
                         </p>
                     </div>
+                </div>
                 <div class="result-card">
                     <div class="result-card__img-wrapper">
                         <img class="result-card__img" src="img/<?php echo $comparison['img']?>" alt="国旗">
