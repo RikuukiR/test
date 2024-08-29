@@ -4,14 +4,14 @@
     max-width: 1230px;
 }
 
-.result__cards {
+.result-cards {
     display: flex;
     justify-content: center;
     /* align-items: flex-start;
     flex-wrap: nowrap; */
 }
 
-.result__card {
+.result-card {
     margin: 0 20px;
     width: 360px;
     border-radius: 3px;
@@ -21,27 +21,25 @@
 .result-card__img-wrapper {
     position: relative;
     padding-top: 56.25%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.result__card__img {
+.result-card__img {
     position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    left: 0;
-    transform: none;
-    object-fit: cover５;
+        top: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translateY(-50%);
 }
 
-.result__card__body {
+.result-card__body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
 
-.result__card__city,
-.result__card__time {
+.result-card__city,
+.result-card__time {
     margin: 0;
     font-size: 18px;
 }
