@@ -62,10 +62,38 @@ h2 {
     height: 50%;
 } */
 
-.red {
+/* .red {
     background-color: red;
     width: 400px;
     height: 200px;
     margin: 50px auto;
 
+} */
+
+/* .kakumaru {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 60px 0 60px 0;
+    margin: 20px;
+} */
+
+/* .shadow {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    box-shadow: 10px 10px 0 black;
+} */
+
+.practice-1 {
+    width: 200px;
+    padding: 10px 0;
+    background: linear-gradient(90deg, #ff5800, #8b00be);
+    border-radius: 30px;
+    text-align: center;
+    margin: 100px auto 0;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    color: #fff;
+    display: block;
 }
