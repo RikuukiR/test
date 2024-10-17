@@ -86,7 +86,7 @@ h2 {
     box-shadow: 10px 10px 0 black;
 } */
 
-.practice-1 {
+/* .practice-1 {
     width: 200px;
     padding: 10px 0;
     background: linear-gradient(90deg, #ff5800, #8b00be);
@@ -96,4 +96,84 @@ h2 {
     box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
     color: #fff;
     display: block;
+} */
+
+/* body {
+    margin: 100px auto;
+    width: 760px;
+}
+.practice-2 {
+    display: flex;
+    box-shadow: 0 0 6px #eeeeee;
+}
+
+.card__img {
+    width: 40%;
+}
+
+.card__img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.card__content {
+    padding: 15px;
+}
+
+.card__content-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.card__content-tag {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.card__content-tag--red {
+    margin-left: 40px;
+    color: red;
+} */
+
+.card {
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);;
+}
+.card__img img{
+    width: 100%;
+}
+
+.card__content {
+    padding: 10px 20px;
+}
+
+.card__content-ttl {
+    background-color: #008888;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+.card__content-del {
+    font-size: 18px;
+    margin: 15px 0 30px 0;
+    font-weight: 400;
+}
+
+.card__content-tag {
+    display: inline-block;
+    color: #008888;
+    font-size: 14px;
+    margin-left: 40%;
+    margin: 0 0 15px 40%;
+}
+
+.card__content-tag--date {
+    display: inline-block;
+    color: #888888;
+    font-size: 14px;
+    margin-left: 20px;
 }
