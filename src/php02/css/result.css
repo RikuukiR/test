@@ -4,7 +4,7 @@
     max-width: 1230px;
 }
 
-.result__cards {
+.result-cards {
     display: flex;
     justify-content: center;
 }
