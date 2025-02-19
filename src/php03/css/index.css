@@ -50,11 +50,11 @@
     cursor: pointer;
 }
 
-.question__button {
+.quiz-form__button {
     width: 550px;
 }
 
-.question__button-submit {
+.quiz-form__button-submit {
     padding: 10px;
     width: 100%;
     height: 50px;

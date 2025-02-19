@@ -32,22 +32,26 @@ $question = $options[mt_rand(0, 3)];
 <body>
     <header class="header">
         <div class="header__inner">
-            <a href="/php03" class="header__logo">Status Code Quiz</a>
+            <a href="/" class="header__logo">Status Code Quiz</a>
         </div>
     </header>
     <main>
         <div class="quiz__content">
             <div class="question">
                 <p class="question__text">Q. 以下の内容に当てはまるステータスコードを選んでください</p>
-                <p class="question__text"></p>
+                <p class="question__text">
+                    <?php echo $question['description'] ?>
+                </p>
             </div>
             <form action="result.php" class="quiz-form" method="POST">
-                <input type="hidden" name="answer_code" value="">
+                <input type="hidden" name="answer_code" value="<?php echo $question['code'] ?>">
                 <div class="quiz-form__item">
-                    <div class="quiz-form__group">
-                        <input type="radio" id="" name="option" value="" class="quiz-form__radio">
-                        <label for="" class="quiz-form__label"></label>
-                    </div>
+                    <?php foreach ($options as $option): ?>
+                        <div class="quiz-form__group">
+                            <input type="radio" id="<?php echo $option['code'] ?>" name="option" value="<?php echo $option['code'] ?>" class="quiz-form__radio">
+                            <label for="<?php echo $option['code'] ?>" class="quiz-form__label"><?php echo $option['code'] ?></label>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
                 <div class="quiz-form__button">
                     <button class="quiz-form__button-submit" type="submit">
