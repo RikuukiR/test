@@ -1,3 +1,20 @@
+<?php
+
+require_once('config/status_codes.php');
+
+$random_numbers = array_rand($status_codes, 4);
+
+foreach ($random_numbers as $index) {
+    $options[] = $status_codes[$index];
+}
+$question = $options[mt_rand(0, 3)];
+
+// echo ('<pre>');
+// var_dump($random_numbers);
+// echo ('<pre>');
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
